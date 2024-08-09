@@ -17,6 +17,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
     private DepartmentRepository departmentRepository;
 
+    // Constructor Injection
     @Override
     public DepartmentDto createDepartment(DepartmentDto departmentDto) {
         Department department = DepartmentMapper.mapToDepartment(departmentDto);
