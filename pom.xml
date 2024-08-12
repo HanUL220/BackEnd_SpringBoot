@@ -129,6 +129,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<!-- 이름 고정 -->
+		<finalName>springboot-reactjs-backend</finalName>
 	</build>
 
 </project>
